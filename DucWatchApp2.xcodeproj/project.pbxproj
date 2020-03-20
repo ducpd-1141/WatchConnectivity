@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60C88E023BECC3400F18A7B /* TestInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C88DF23BECC3400F18A7B /* TestInterfaceController.swift */; };
+		B620E85923C5926000162E6A /* giphy8.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E84F23C5925F00162E6A /* giphy8.png */; };
+		B620E85A23C5926000162E6A /* giphy5.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85023C5925F00162E6A /* giphy5.png */; };
+		B620E85B23C5926000162E6A /* giphy3.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85123C5925F00162E6A /* giphy3.png */; };
+		B620E85C23C5926000162E6A /* giphy1.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85223C5925F00162E6A /* giphy1.png */; };
+		B620E85D23C5926000162E6A /* giphy0.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85323C5925F00162E6A /* giphy0.png */; };
+		B620E85E23C5926000162E6A /* giphy6.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85423C5925F00162E6A /* giphy6.png */; };
+		B620E85F23C5926000162E6A /* giphy7.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85523C5925F00162E6A /* giphy7.png */; };
+		B620E86023C5926000162E6A /* giphy9.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85623C5926000162E6A /* giphy9.png */; };
+		B620E86123C5926000162E6A /* giphy2.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85723C5926000162E6A /* giphy2.png */; };
+		B620E86223C5926000162E6A /* giphy4.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E85823C5926000162E6A /* giphy4.png */; };
+		B620E86623C5AEEA00162E6A /* A_Lowest_01.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E86523C5AEEA00162E6A /* A_Lowest_01.png */; };
+		B64468EE23C578D70030F336 /* ImageInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64468ED23C578D70030F336 /* ImageInterfaceController.swift */; };
+		B6C064C8239E453100FB01D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C064C7239E453100FB01D8 /* AppDelegate.swift */; };
+		B6C064CA239E453100FB01D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C064C9239E453100FB01D8 /* SceneDelegate.swift */; };
+		B6C064CC239E453100FB01D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C064CB239E453100FB01D8 /* ViewController.swift */; };
+		B6C064CF239E453100FB01D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C064CD239E453100FB01D8 /* Main.storyboard */; };
+		B6C064D1239E453600FB01D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C064D0239E453600FB01D8 /* Assets.xcassets */; };
+		B6C064D4239E453600FB01D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C064D2239E453600FB01D8 /* LaunchScreen.storyboard */; };
+		B6C064DF239E453600FB01D8 /* DucWatchApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C064DE239E453600FB01D8 /* DucWatchApp2Tests.swift */; };
+		B6C064EA239E453600FB01D8 /* DucWatchApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C064E9239E453600FB01D8 /* DucWatchApp2UITests.swift */; };
+		B6C064EF239E453600FB01D8 /* DucWatchApp2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6C064EE239E453600FB01D8 /* DucWatchApp2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6C064F5239E453600FB01D8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C064F3239E453600FB01D8 /* Interface.storyboard */; };
+		B6C064F7239E453900FB01D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C064F6239E453900FB01D8 /* Assets.xcassets */; };
+		B6C064FE239E453900FB01D8 /* DucWatchApp2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B6C064FD239E453900FB01D8 /* DucWatchApp2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6C06503239E453900FB01D8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C06502239E453900FB01D8 /* InterfaceController.swift */; };
+		B6C06505239E453900FB01D8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C06504239E453900FB01D8 /* ExtensionDelegate.swift */; };
+		B6C06507239E453900FB01D8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C06506239E453900FB01D8 /* NotificationController.swift */; };
+		B6C06509239E453C00FB01D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C06508239E453C00FB01D8 /* Assets.xcassets */; };
+		B6C6574123C7275500A0329B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6574023C7275500A0329B /* HomeKit.framework */; };
+		B6EEC33623B9D5DB009C58B8 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EEC33523B9D5DB009C58B8 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6C064DB239E453600FB01D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C064BC239E453100FB01D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C064C3239E453100FB01D8;
+			remoteInfo = DucWatchApp2;
+		};
+		B6C064E6239E453600FB01D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C064BC239E453100FB01D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C064C3239E453100FB01D8;
+			remoteInfo = DucWatchApp2;
+		};
+		B6C064F0239E453600FB01D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C064BC239E453100FB01D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C064ED239E453600FB01D8;
+			remoteInfo = "DucWatchApp2 WatchKit App";
+		};
+		B6C064FF239E453900FB01D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C064BC239E453100FB01D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C064FC239E453900FB01D8;
+			remoteInfo = "DucWatchApp2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6C06511239E453C00FB01D8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B6C064FE239E453900FB01D8 /* DucWatchApp2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C06515239E453C00FB01D8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B6C064EF239E453600FB01D8 /* DucWatchApp2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B60C88DF23BECC3400F18A7B /* TestInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInterfaceController.swift; sourceTree = "<group>"; };
+		B620E84F23C5925F00162E6A /* giphy8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy8.png; sourceTree = "<group>"; };
+		B620E85023C5925F00162E6A /* giphy5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy5.png; sourceTree = "<group>"; };
+		B620E85123C5925F00162E6A /* giphy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy3.png; sourceTree = "<group>"; };
+		B620E85223C5925F00162E6A /* giphy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy1.png; sourceTree = "<group>"; };
+		B620E85323C5925F00162E6A /* giphy0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy0.png; sourceTree = "<group>"; };
+		B620E85423C5925F00162E6A /* giphy6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy6.png; sourceTree = "<group>"; };
+		B620E85523C5925F00162E6A /* giphy7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy7.png; sourceTree = "<group>"; };
+		B620E85623C5926000162E6A /* giphy9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy9.png; sourceTree = "<group>"; };
+		B620E85723C5926000162E6A /* giphy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy2.png; sourceTree = "<group>"; };
+		B620E85823C5926000162E6A /* giphy4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy4.png; sourceTree = "<group>"; };
+		B620E86523C5AEEA00162E6A /* A_Lowest_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Lowest_01.png; sourceTree = "<group>"; };
+		B64468ED23C578D70030F336 /* ImageInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterfaceController.swift; sourceTree = "<group>"; };
+		B6C064C4239E453100FB01D8 /* DucWatchApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DucWatchApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C064C7239E453100FB01D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6C064C9239E453100FB01D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6C064CB239E453100FB01D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6C064CE239E453100FB01D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6C064D0239E453600FB01D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C064D3239E453600FB01D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6C064D5239E453600FB01D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C064DA239E453600FB01D8 /* DucWatchApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DucWatchApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C064DE239E453600FB01D8 /* DucWatchApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucWatchApp2Tests.swift; sourceTree = "<group>"; };
+		B6C064E0239E453600FB01D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C064E5239E453600FB01D8 /* DucWatchApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DucWatchApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C064E9239E453600FB01D8 /* DucWatchApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucWatchApp2UITests.swift; sourceTree = "<group>"; };
+		B6C064EB239E453600FB01D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C064EE239E453600FB01D8 /* DucWatchApp2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DucWatchApp2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C064F4239E453600FB01D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B6C064F6239E453900FB01D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C064F8239E453900FB01D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C064FD239E453900FB01D8 /* DucWatchApp2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DucWatchApp2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C06502239E453900FB01D8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B6C06504239E453900FB01D8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B6C06506239E453900FB01D8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B6C06508239E453C00FB01D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C0650A239E453C00FB01D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C0650B239E453C00FB01D8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B6C0651F239E456100FB01D8 /* DucWatchApp2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DucWatchApp2.entitlements; sourceTree = "<group>"; };
+		B6C06520239E461500FB01D8 /* DucWatchApp2 WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DucWatchApp2 WatchKit App.entitlements"; sourceTree = "<group>"; };
+		B6C06521239E462300FB01D8 /* DucWatchApp2 WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DucWatchApp2 WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		B6C6574023C7275500A0329B /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.1.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6EEC33323B9D5DB009C58B8 /* DucWatchApp2 WatchKit ExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DucWatchApp2 WatchKit ExtensionDebug.entitlements"; sourceTree = "<group>"; };
+		B6EEC33523B9D5DB009C58B8 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C064C1239E453100FB01D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064D7239E453600FB01D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064E2239E453600FB01D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064FA239E453900FB01D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C6574123C7275500A0329B /* HomeKit.framework in Frameworks */,
+				B6EEC33623B9D5DB009C58B8 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B620E84E23C5924E00162E6A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B620E85323C5925F00162E6A /* giphy0.png */,
+				B620E85223C5925F00162E6A /* giphy1.png */,
+				B620E85723C5926000162E6A /* giphy2.png */,
+				B620E85123C5925F00162E6A /* giphy3.png */,
+				B620E85823C5926000162E6A /* giphy4.png */,
+				B620E85023C5925F00162E6A /* giphy5.png */,
+				B620E85423C5925F00162E6A /* giphy6.png */,
+				B620E85523C5925F00162E6A /* giphy7.png */,
+				B620E84F23C5925F00162E6A /* giphy8.png */,
+				B620E85623C5926000162E6A /* giphy9.png */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B6C064BB239E453100FB01D8 = {
+			isa = PBXGroup;
+			children = (
+				B6C064C6239E453100FB01D8 /* DucWatchApp2 */,
+				B6C064DD239E453600FB01D8 /* DucWatchApp2Tests */,
+				B6C064E8239E453600FB01D8 /* DucWatchApp2UITests */,
+				B6C064F2239E453600FB01D8 /* DucWatchApp2 WatchKit App */,
+				B6C06501239E453900FB01D8 /* DucWatchApp2 WatchKit Extension */,
+				B6C064C5239E453100FB01D8 /* Products */,
+				B6EEC33423B9D5DB009C58B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C064C5239E453100FB01D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C064C4239E453100FB01D8 /* DucWatchApp2.app */,
+				B6C064DA239E453600FB01D8 /* DucWatchApp2Tests.xctest */,
+				B6C064E5239E453600FB01D8 /* DucWatchApp2UITests.xctest */,
+				B6C064EE239E453600FB01D8 /* DucWatchApp2 WatchKit App.app */,
+				B6C064FD239E453900FB01D8 /* DucWatchApp2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C064C6239E453100FB01D8 /* DucWatchApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0651F239E456100FB01D8 /* DucWatchApp2.entitlements */,
+				B6C064C7239E453100FB01D8 /* AppDelegate.swift */,
+				B6C064C9239E453100FB01D8 /* SceneDelegate.swift */,
+				B6C064CB239E453100FB01D8 /* ViewController.swift */,
+				B6C064CD239E453100FB01D8 /* Main.storyboard */,
+				B6C064D0239E453600FB01D8 /* Assets.xcassets */,
+				B6C064D2239E453600FB01D8 /* LaunchScreen.storyboard */,
+				B6C064D5239E453600FB01D8 /* Info.plist */,
+			);
+			path = DucWatchApp2;
+			sourceTree = "<group>";
+		};
+		B6C064DD239E453600FB01D8 /* DucWatchApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C064DE239E453600FB01D8 /* DucWatchApp2Tests.swift */,
+				B6C064E0239E453600FB01D8 /* Info.plist */,
+			);
+			path = DucWatchApp2Tests;
+			sourceTree = "<group>";
+		};
+		B6C064E8239E453600FB01D8 /* DucWatchApp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C064E9239E453600FB01D8 /* DucWatchApp2UITests.swift */,
+				B6C064EB239E453600FB01D8 /* Info.plist */,
+			);
+			path = DucWatchApp2UITests;
+			sourceTree = "<group>";
+		};
+		B6C064F2239E453600FB01D8 /* DucWatchApp2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B620E86523C5AEEA00162E6A /* A_Lowest_01.png */,
+				B620E84E23C5924E00162E6A /* New Group */,
+				B6C06520239E461500FB01D8 /* DucWatchApp2 WatchKit App.entitlements */,
+				B6C064F3239E453600FB01D8 /* Interface.storyboard */,
+				B6C064F6239E453900FB01D8 /* Assets.xcassets */,
+				B6C064F8239E453900FB01D8 /* Info.plist */,
+			);
+			path = "DucWatchApp2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		B6C06501239E453900FB01D8 /* DucWatchApp2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEC33323B9D5DB009C58B8 /* DucWatchApp2 WatchKit ExtensionDebug.entitlements */,
+				B6C06521239E462300FB01D8 /* DucWatchApp2 WatchKit Extension.entitlements */,
+				B6C06502239E453900FB01D8 /* InterfaceController.swift */,
+				B6C06504239E453900FB01D8 /* ExtensionDelegate.swift */,
+				B6C06506239E453900FB01D8 /* NotificationController.swift */,
+				B6C06508239E453C00FB01D8 /* Assets.xcassets */,
+				B6C0650A239E453C00FB01D8 /* Info.plist */,
+				B6C0650B239E453C00FB01D8 /* PushNotificationPayload.apns */,
+				B60C88DF23BECC3400F18A7B /* TestInterfaceController.swift */,
+				B64468ED23C578D70030F336 /* ImageInterfaceController.swift */,
+			);
+			path = "DucWatchApp2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B6EEC33423B9D5DB009C58B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6574023C7275500A0329B /* HomeKit.framework */,
+				B6EEC33523B9D5DB009C58B8 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C064C3239E453100FB01D8 /* DucWatchApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C06516239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2" */;
+			buildPhases = (
+				B6C064C0239E453100FB01D8 /* Sources */,
+				B6C064C1239E453100FB01D8 /* Frameworks */,
+				B6C064C2239E453100FB01D8 /* Resources */,
+				B6C06515239E453C00FB01D8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C064F1239E453600FB01D8 /* PBXTargetDependency */,
+			);
+			name = DucWatchApp2;
+			productName = DucWatchApp2;
+			productReference = B6C064C4239E453100FB01D8 /* DucWatchApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6C064D9239E453600FB01D8 /* DucWatchApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C06519239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2Tests" */;
+			buildPhases = (
+				B6C064D6239E453600FB01D8 /* Sources */,
+				B6C064D7239E453600FB01D8 /* Frameworks */,
+				B6C064D8239E453600FB01D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C064DC239E453600FB01D8 /* PBXTargetDependency */,
+			);
+			name = DucWatchApp2Tests;
+			productName = DucWatchApp2Tests;
+			productReference = B6C064DA239E453600FB01D8 /* DucWatchApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6C064E4239E453600FB01D8 /* DucWatchApp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C0651C239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2UITests" */;
+			buildPhases = (
+				B6C064E1239E453600FB01D8 /* Sources */,
+				B6C064E2239E453600FB01D8 /* Frameworks */,
+				B6C064E3239E453600FB01D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C064E7239E453600FB01D8 /* PBXTargetDependency */,
+			);
+			name = DucWatchApp2UITests;
+			productName = DucWatchApp2UITests;
+			productReference = B6C064E5239E453600FB01D8 /* DucWatchApp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B6C064ED239E453600FB01D8 /* DucWatchApp2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C06512239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2 WatchKit App" */;
+			buildPhases = (
+				B6C064EC239E453600FB01D8 /* Resources */,
+				B6C06511239E453C00FB01D8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C06500239E453900FB01D8 /* PBXTargetDependency */,
+			);
+			name = "DucWatchApp2 WatchKit App";
+			productName = "DucWatchApp2 WatchKit App";
+			productReference = B6C064EE239E453600FB01D8 /* DucWatchApp2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B6C064FC239E453900FB01D8 /* DucWatchApp2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C0650E239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2 WatchKit Extension" */;
+			buildPhases = (
+				B6C064F9239E453900FB01D8 /* Sources */,
+				B6C064FA239E453900FB01D8 /* Frameworks */,
+				B6C064FB239E453900FB01D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DucWatchApp2 WatchKit Extension";
+			productName = "DucWatchApp2 WatchKit Extension";
+			productReference = B6C064FD239E453900FB01D8 /* DucWatchApp2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C064BC239E453100FB01D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Watch;
+				TargetAttributes = {
+					B6C064C3239E453100FB01D8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B6C064D9239E453600FB01D8 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B6C064C3239E453100FB01D8;
+					};
+					B6C064E4239E453600FB01D8 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B6C064C3239E453100FB01D8;
+					};
+					B6C064ED239E453600FB01D8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B6C064FC239E453900FB01D8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B6C064BF239E453100FB01D8 /* Build configuration list for PBXProject "DucWatchApp2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C064BB239E453100FB01D8;
+			productRefGroup = B6C064C5239E453100FB01D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C064C3239E453100FB01D8 /* DucWatchApp2 */,
+				B6C064D9239E453600FB01D8 /* DucWatchApp2Tests */,
+				B6C064E4239E453600FB01D8 /* DucWatchApp2UITests */,
+				B6C064ED239E453600FB01D8 /* DucWatchApp2 WatchKit App */,
+				B6C064FC239E453900FB01D8 /* DucWatchApp2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C064C2239E453100FB01D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C064D4239E453600FB01D8 /* LaunchScreen.storyboard in Resources */,
+				B6C064D1239E453600FB01D8 /* Assets.xcassets in Resources */,
+				B6C064CF239E453100FB01D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064D8239E453600FB01D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064E3239E453600FB01D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064EC239E453600FB01D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B620E86223C5926000162E6A /* giphy4.png in Resources */,
+				B6C064F7239E453900FB01D8 /* Assets.xcassets in Resources */,
+				B6C064F5239E453600FB01D8 /* Interface.storyboard in Resources */,
+				B620E85923C5926000162E6A /* giphy8.png in Resources */,
+				B620E85D23C5926000162E6A /* giphy0.png in Resources */,
+				B620E86623C5AEEA00162E6A /* A_Lowest_01.png in Resources */,
+				B620E85E23C5926000162E6A /* giphy6.png in Resources */,
+				B620E85F23C5926000162E6A /* giphy7.png in Resources */,
+				B620E85A23C5926000162E6A /* giphy5.png in Resources */,
+				B620E86123C5926000162E6A /* giphy2.png in Resources */,
+				B620E85B23C5926000162E6A /* giphy3.png in Resources */,
+				B620E85C23C5926000162E6A /* giphy1.png in Resources */,
+				B620E86023C5926000162E6A /* giphy9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064FB239E453900FB01D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C06509239E453C00FB01D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C064C0239E453100FB01D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C064CC239E453100FB01D8 /* ViewController.swift in Sources */,
+				B6C064C8239E453100FB01D8 /* AppDelegate.swift in Sources */,
+				B6C064CA239E453100FB01D8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064D6239E453600FB01D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C064DF239E453600FB01D8 /* DucWatchApp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064E1239E453600FB01D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C064EA239E453600FB01D8 /* DucWatchApp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C064F9239E453900FB01D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C06507239E453900FB01D8 /* NotificationController.swift in Sources */,
+				B60C88E023BECC3400F18A7B /* TestInterfaceController.swift in Sources */,
+				B6C06505239E453900FB01D8 /* ExtensionDelegate.swift in Sources */,
+				B6C06503239E453900FB01D8 /* InterfaceController.swift in Sources */,
+				B64468EE23C578D70030F336 /* ImageInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C064DC239E453600FB01D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C064C3239E453100FB01D8 /* DucWatchApp2 */;
+			targetProxy = B6C064DB239E453600FB01D8 /* PBXContainerItemProxy */;
+		};
+		B6C064E7239E453600FB01D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C064C3239E453100FB01D8 /* DucWatchApp2 */;
+			targetProxy = B6C064E6239E453600FB01D8 /* PBXContainerItemProxy */;
+		};
+		B6C064F1239E453600FB01D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C064ED239E453600FB01D8 /* DucWatchApp2 WatchKit App */;
+			targetProxy = B6C064F0239E453600FB01D8 /* PBXContainerItemProxy */;
+		};
+		B6C06500239E453900FB01D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C064FC239E453900FB01D8 /* DucWatchApp2 WatchKit Extension */;
+			targetProxy = B6C064FF239E453900FB01D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6C064CD239E453100FB01D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C064CE239E453100FB01D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C064D2239E453600FB01D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C064D3239E453600FB01D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C064F3239E453600FB01D8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C064F4239E453600FB01D8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C0650C239E453C00FB01D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6C0650D239E453C00FB01D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C0650F239E453C00FB01D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "DucWatchApp2 WatchKit Extension/DucWatchApp2 WatchKit ExtensionDebug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZT4LJ4C55;
+				INFOPLIST_FILE = "DucWatchApp2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Duc.iOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		B6C06510239E453C00FB01D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "DucWatchApp2 WatchKit Extension/DucWatchApp2 WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5ZT4LJ4C55;
+				INFOPLIST_FILE = "DucWatchApp2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Duc.iOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Watch extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		B6C06513239E453C00FB01D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DucWatchApp2 WatchKit App/DucWatchApp2 WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZT4LJ4C55;
+				IBSC_MODULE = DucWatchApp2_WatchKit_Extension;
+				INFOPLIST_FILE = "DucWatchApp2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Duc.iOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		B6C06514239E453C00FB01D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DucWatchApp2 WatchKit App/DucWatchApp2 WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5ZT4LJ4C55;
+				IBSC_MODULE = DucWatchApp2_WatchKit_Extension;
+				INFOPLIST_FILE = "DucWatchApp2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Duc.iOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Watch";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		B6C06517239E453C00FB01D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DucWatchApp2/DucWatchApp2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZT4LJ4C55;
+				INFOPLIST_FILE = DucWatchApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Duc.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C06518239E453C00FB01D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DucWatchApp2/DucWatchApp2.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5ZT4LJ4C55;
+				INFOPLIST_FILE = DucWatchApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Duc.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Duc IOS";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6C0651A239E453C00FB01D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucWatchApp2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Duc.DucWatchApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DucWatchApp2.app/DucWatchApp2";
+			};
+			name = Debug;
+		};
+		B6C0651B239E453C00FB01D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucWatchApp2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Duc.DucWatchApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DucWatchApp2.app/DucWatchApp2";
+			};
+			name = Release;
+		};
+		B6C0651D239E453C00FB01D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucWatchApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Duc.DucWatchApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DucWatchApp2;
+			};
+			name = Debug;
+		};
+		B6C0651E239E453C00FB01D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DucWatchApp2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Duc.DucWatchApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DucWatchApp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C064BF239E453100FB01D8 /* Build configuration list for PBXProject "DucWatchApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C0650C239E453C00FB01D8 /* Debug */,
+				B6C0650D239E453C00FB01D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C0650E239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C0650F239E453C00FB01D8 /* Debug */,
+				B6C06510239E453C00FB01D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C06512239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C06513239E453C00FB01D8 /* Debug */,
+				B6C06514239E453C00FB01D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C06516239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C06517239E453C00FB01D8 /* Debug */,
+				B6C06518239E453C00FB01D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C06519239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C0651A239E453C00FB01D8 /* Debug */,
+				B6C0651B239E453C00FB01D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C0651C239E453C00FB01D8 /* Build configuration list for PBXNativeTarget "DucWatchApp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C0651D239E453C00FB01D8 /* Debug */,
+				B6C0651E239E453C00FB01D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C064BC239E453100FB01D8 /* Project object */;
+}

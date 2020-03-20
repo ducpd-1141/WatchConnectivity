@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Courier.ttc">
+            <string>Courier</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Image Interface Controller-->
+        <scene sceneID="HLC-Mo-v1y">
+            <objects>
+                <controller id="tkP-8m-Miu" customClass="ImageInterfaceController" customModule="DucWatchApp2_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="5LJ-nc-VKO">
+                            <items>
+                                <imageView width="1" height="100" alignment="left" id="GFL-lr-NDN"/>
+                            </items>
+                            <color key="backgroundColor" red="0.12941176469999999" green="0.28235294119999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="GLc-lU-eNu">
+                            <items>
+                                <imageView height="100" alignment="left" id="lO6-Ph-4he"/>
+                            </items>
+                            <color key="backgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="image" destination="GFL-lr-NDN" id="Zsy-OE-BAf"/>
+                        <outlet property="image2" destination="lO6-Ph-4he" id="sBt-I1-Hcq"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="177" y="12"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DucWatchApp2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" alignment="left" text="Label" id="KNT-wI-JG8"/>
+                        <label width="1" alignment="left" text="Label" id="6b9-Su-xWI"/>
+                        <label width="1" height="31" alignment="left" text="Label" id="6pT-YF-RHg"/>
+                        <group width="1" alignment="left" layout="vertical" id="F0L-gS-LX8">
+                            <items>
+                                <label width="1" alignment="left" text="Label" id="0aX-0b-sLm"/>
+                                <label width="1" alignment="left" text="Label" id="srv-Ym-AIt"/>
+                                <label width="1" alignment="left" text="Label" id="ATW-fD-Ic0"/>
+                            </items>
+                            <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="XLabel" destination="KNT-wI-JG8" id="CdD-Ez-xhk"/>
+                        <outlet property="XLabel1" destination="0aX-0b-sLm" id="Ttz-E5-juR"/>
+                        <outlet property="YLabel" destination="6b9-Su-xWI" id="79P-SN-lLx"/>
+                        <outlet property="YLabel1" destination="srv-Ym-AIt" id="ggQ-xR-9kg"/>
+                        <outlet property="ZLabel" destination="6pT-YF-RHg" id="dAW-dJ-E8x"/>
+                        <outlet property="ZLabel1" destination="ATW-fD-Ic0" id="99p-nS-1Lb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="DucWatchApp2_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="DucWatchApp2_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+        <!--Test Interface Controller-->
+        <scene sceneID="45N-OB-Enh">
+            <objects>
+                <controller id="l2h-c7-Fb5" customClass="TestInterfaceController" customModule="DucWatchApp2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <switch width="1" alignment="left" title="Fake Data" id="AwN-0q-b7j">
+                            <connections>
+                                <action selector="fakeDataActionWithValue:" destination="l2h-c7-Fb5" id="EIp-zO-rsd"/>
+                            </connections>
+                        </switch>
+                        <slider width="1" alignment="left" value="5" maximum="50" steps="10" id="rpD-Q4-b92">
+                            <connections>
+                                <action selector="durationActionWithValue:" destination="l2h-c7-Fb5" id="gBe-Yr-Ton"/>
+                            </connections>
+                        </slider>
+                        <group width="1" alignment="left" id="mqo-MF-joI">
+                            <items>
+                                <label alignment="right" text="5.0" id="RiP-F3-nEr">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label alignment="left" text="durationMins" id="8bx-0A-leH">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Start Recorder" enabled="NO" id="3Ah-na-6QR">
+                            <connections>
+                                <action selector="startRecorderAction" destination="l2h-c7-Fb5" id="cnO-ZK-ce4"/>
+                            </connections>
+                        </button>
+                        <group width="1" alignment="left" id="Xuq-Ml-woC">
+                            <items>
+                                <label height="9" alignment="right" text="hhmmss" id="xTg-Ty-avE">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label alignment="left" text="lastStart" id="nVu-1w-9oe">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                        <switch width="1" alignment="left" title="Dequeuer" id="k20-nG-7y3">
+                            <connections>
+                                <action selector="dequeuerActionWithValue:" destination="l2h-c7-Fb5" id="kRq-1d-Mp0"/>
+                            </connections>
+                        </switch>
+                        <group width="1" height="11" alignment="left" id="4F8-2q-sTT">
+                            <items>
+                                <label alignment="left" text="cmdCount" id="zAw-rD-aW9">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label alignment="right" text="0" id="20C-PF-HYi">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="11" alignment="left" id="stL-xv-HZS">
+                            <items>
+                                <label alignment="left" text="itemCount" id="nDg-bx-80c">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label alignment="right" text="0" id="8zH-SS-GIU">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="134" height="11" alignment="left" id="lXF-cm-T3K">
+                            <items>
+                                <label alignment="left" text="batchNum" id="Cvv-I8-Gc5">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label alignment="right" text="0" id="2MH-R2-ruN">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="134" height="11" alignment="left" id="uz5-En-rUD">
+                            <items>
+                                <label alignment="left" text="latest" id="I3C-Wl-vrH">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label alignment="right" text="mmddyy" id="6OZ-jw-zsV">
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="134" height="11" alignment="left" id="KDM-bc-XXl">
+                            <items>
+                                <label alignment="left" text="errors" id="MB4-ln-2bB">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label alignment="right" text="0" id="6fD-Rt-Hry">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="134" height="35" alignment="left" id="mzK-ob-Cow">
+                            <items>
+                                <label alignment="left" text="last" id="w9t-eB-e1P">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                                <label width="112" height="37" alignment="right" textAlignment="right" numberOfLines="3" id="a92-3g-ajm">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" name="Courier" family="Courier" pointSize="9"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="batchNumVal" destination="2MH-R2-ruN" id="k0N-wV-JhK"/>
+                        <outlet property="cmdCountVal" destination="20C-PF-HYi" id="FyN-Le-pvH"/>
+                        <outlet property="durationVal" destination="RiP-F3-nEr" id="H3M-O7-6l1"/>
+                        <outlet property="errorsVal" destination="6fD-Rt-Hry" id="ID3-aa-7nQ"/>
+                        <outlet property="itemCountVal" destination="8zH-SS-GIU" id="k6W-mi-Ek6"/>
+                        <outlet property="lastStartVal" destination="xTg-Ty-avE" id="znE-Qa-x0t"/>
+                        <outlet property="lastVal" destination="a92-3g-ajm" id="Rml-kD-Aws"/>
+                        <outlet property="latestVal" destination="6OZ-jw-zsV" id="dd3-ZB-uEC"/>
+                        <outlet property="startVal" destination="3Ah-na-6QR" id="uMD-Y4-YzI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-17" y="368"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="0.49803921569999998" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+</document>
